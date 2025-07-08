@@ -1,10 +1,5 @@
 def add(a,b):
-<<<<<<< HEAD
    return a + b + 7 + 77
-
-=======
-   return a + b + 77
->>>>>>> feature-b
 def subtract(a,b):
    return  a - b
 def multiply(a,b):
