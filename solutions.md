@@ -24,21 +24,23 @@ Yes.
 
 ## Exercise 5
 Commit is a snapshot of your code at a particular point in time.
-
+![alt text](<exercise 5.PNG>)
 ## Exercise 6 *
 To ignore in git you make use of '.gitignore'.
 ![alt text](<git ignore-1.PNG>)
 
 ## Exercise 7
 - 'git log' shows the commit history of your git repository.
+![alt text](<git log 4.PNG>)
 
 ## Exercise 8 
 - To use 'git add' means to stage changes , preparing them for the next commit. It informs git of the changes you want to include in the commit.
 ![alt text](<git ignore-2.PNG>)
 
-## Exercise 9*
+## Exercise 9
 The staging area is where changes are placed before commiting them to the repository.
 You get items into the staging area by using 'git add <file>' to move the files from the working directory to the staging area.
+![alt text](<exercise 9.PNG>)
 
 ## Exercise 10
 To commit in git with a message on the same line, you use the -m flag followed by the message in quotes.
@@ -52,7 +54,7 @@ The differences between pull, push and fetch commands in git is :
 ## Exercise 12
 You use the 'git remote show origin'.
 explanation of output
-- * remote origin - shows thats im inspecting the remote named origin.
+-  remote origin - shows thats im inspecting the remote named origin.
 - fetch URL - the URL git to download changes from github.
 - push URL - the URL git uses to push changes.
 - HEAD branch - default branch.
@@ -72,6 +74,7 @@ Rebase - Rewrites history, linearizes the commit history without a merge.
 ![alt text](checkout.PNG)
 
 - 'git switch'
+
 
 ## Exercise 15
 Tags are used to mark specific points in the repository's history usually for releases.
