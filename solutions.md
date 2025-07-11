@@ -83,17 +83,17 @@ Types of Tags:
 - Lightweight tags - do not store more information.
 - Annotated tags - Full object in Git, storing the tagger's details.
 ## Exercise 16
-Deleting with -d is to safe delete, which will refuse to delete if the branch has unmerged changes.
+- Deleting with -d is to safe delete, which will refuse to delete if the branch has unmerged changes.
 
-Deleting with -D is to force delete, even if the branch isnt fully merged.
+- Deleting with -D is to force delete, even if the branch isnt fully merged.
 
 ## Exercise 17*
  Yes you can change a branch name 
  ![alt text](branch.PNG)
 
 ## Exercise 18
--Reverting a commit means to create a new commit that undoes the changes introduced by a previous commit without changing the commit history.
--To reset a previous commit is to move the current branch to a specific commit and optionally modify the working directory or staging area.
--Revert is to create a new commit that undoes the changes of a previous commit.Revert does not change the commit history.
--Reset is to move current branch to a previous commit. Reset changes the history by removing commits. however reset can change the working directory and staging area.
+- Reverting a commit means to create a new commit that undoes the changes introduced by a previous commit without changing the commit history.
+- To reset a previous commit is to move the current branch to a specific commit and optionally modify the working directory or staging area.
+- Revert is to create a new commit that undoes the changes of a previous commit.Revert does not change the commit history.
+- Reset is to move current branch to a previous commit. Reset changes the history by removing commits. however reset can change the working directory and staging area.
 
